@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 5</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <h1>DESAFIO 5</h1>
@@ -18,7 +18,7 @@
                 </p>
                 <form>
                     <label for="cantidadGatos">Ingrese la cantidad de gatos</label>
-                    <input type="number" id="cantidadGatos" name="cantidadGatos">
+                    <input min="0" type="number" id="cantidadGatos" name="cantidadGatos">
                     <button>Resolver</button>
                 </form>
             </div>
@@ -38,10 +38,10 @@
                 </p>
                 <form>
                     <label for="cantidadGatos2">Ingrese la cantidad de gatos</label>
-                    <input type="number" id="cantidadGatos2" name="cantidadGatos2">
+                    <input min="0" type="number" id="cantidadGatos2" name="cantidadGatos2">
                     <br>
                     <label for="cantidadPasos">Ingrese la cantidad de pasos</label>
-                    <input type="number" id="cantidadPasos" name="cantidadPasos">
+                    <input min="0" type="number" id="cantidadPasos" name="cantidadPasos">
                     <button>Resolver</button>
                 </form>
         </div>
@@ -61,11 +61,11 @@
             </p>
             <form>
                 <label for="cantidadGatos3">Ingrese la cantidad de gatos</label>
-                <input type="number" id="cantidadGatos3" name="cantidadGatos3">
+                <input min="0" type="number" id="cantidadGatos3" name="cantidadGatos3">
                 <br>
                 <label for="cantidadPasos3">Ingrese la cantidad de pasos</label>
-                <input type="number" id="cantidadPasos3" name="cantidadPasos3">
-                <button>Resolver</button>
+                <input min="0" type="number" id="cantidadPasos3" name="cantidadPasos3">
+                <button>Resolver</button> 
             </form>
         </div>
         <div class="resolucion resolucion3">
@@ -75,6 +75,6 @@
         </div>
     </section>
     <footer><b>Desafio 5 - Draise David</b></footer>
-    <script src="../js/index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
