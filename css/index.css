@@ -1,0 +1,44 @@
+body{
+    width: 1000px;
+    background-color: #5e5c6c;
+    color: black;
+    margin: 2px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2{
+    text-align: center;
+}
+h1, footer{
+    background-color: #5299d3;
+    border: white solid 5px;
+    border-radius: 2px;
+    width: 1000px;
+    margin: 4px;
+    margin-top: 10px;
+}
+footer{
+    font-size: 1.5em;
+    text-align: center;
+}
+hr {
+    border: none;
+    border-top: 2px dashed white;   
+}
+.ejercicio{
+    width: 1000px;
+    display: flex;
+    border: white solid 5px;
+    margin: 4px;
+    border-radius: 2px;
+}
+.resolucion, .consigna{
+    width: 500px;
+    padding: 5px;
+    border-right: white solid 2.5px;
+}
+.consigna{
+    background-color:#a2bce0;
+}
+.resolucion{
+    background-color: #beb8eb;
+}
